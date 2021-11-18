@@ -6,7 +6,6 @@ import re
 import random
 
 
-
 def home(request):
     
     # Get array of input buttons value to see which news buttons requested
