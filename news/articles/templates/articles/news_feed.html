@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div style="position: absolute; right: 60px; top: 10px;">
+    <img width="20" height="20" src="{% static 'img/dual.png' %}" onclick="dualLayout();">
+</div>
+
+<div style="position: absolute; right: 20px; top: 10px;">
+    <img width="20" height="20" src="{% static 'img/multi.png' %}" onclick="multiLayout();">
+</div>
+
+
+
+<div class="container">
+
+{% for title, href, newspaper, logo in r_news %}
+    <div class="row">
+
+        <div class="col col-sm-12">
+            <div class="card">
+                <div class="card_body">
+                <span class="tag tag-blue">{{ newspaper }}</span>
+                <img src="{% static 'img/'%}{{logo}}" alt="">
+                    <h4>{{ title }}</h4>
+                </div>
+                    <a href="{{ href }}" class="article_links">Link to Article</a> 
+                    <br>
+            </div>
+                <br>
+            </div>
+        
+        
+        </div>
+    
+{% endfor %}
+
+
+
+
+</div>
+
+  
+
+
+{% endblock content %}
+
+{% block jsfiles %}
+
+<script>
+
+function multiLayout() {
+    $('.card').css('width', '200px');
+}
+
+function dualLayout() {
+    $('.card').css('width', 'clamp(20rem, calc(20rem + 2vw), 22rem)');
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+{% endblock jsfiles %}

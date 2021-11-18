@@ -1,0 +1,22 @@
+
+
+{% for title, href in news %}
+<div class="row">
+
+<div class="col-6">
+    <div class="card">
+        <div class="card_body">
+        <span class="tag tag-blue">{{ newspaper }}</span>
+            <h4>{{ title }}</h4>
+        </div>
+            <a href="{{ href }}" class="article_links">Link to Article</a> 
+            <br>
+    </div>
+        <br>
+    </div>
+    
+    
+    </div>
+    
+    {% endfor %}
+

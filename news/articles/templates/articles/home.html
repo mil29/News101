@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<h1>News 101</h1>
+
+<h3>Select your newspapers</h3>
+            
+
+<div class="container news_buttons">
+
+    <form class="select_form" method="POST">
+    {% csrf_token %}
+        <div class="row">
+
+            <div class="col-12">
+                
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://www.bbc.co.uk/news"></input>
+                            <span>BBC</span>
+                        </label>
+                    </div>
+
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://www.theguardian.com/uk"></input>
+                            <span>The Guardian</span>
+                        </label>
+                    </div>
+
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://metro.co.uk/news/uk/"></input>
+                            <span>Metro</span>
+                        </label>
+                    </div>
+
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://news.sky.com/uk"></input>
+                            <span>Sky News</span>
+                        </label>
+                    </div>
+
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://techcrunch.com"></input>
+                            <span>Techcrunch</span>
+                        </label>
+                    </div>
+
+                    <div class="btn-select">
+                        <label>
+                            <input type="checkbox" name="news_select" value="https://www.reuters.com/world/uk/"></input>
+                            <span>Reuters</span>
+                        </label>
+                    </div>
+        
+            </div>
+            
+        </div>
+                <button type="submit" class="btn btn-secondary news_submit_button">SUBMIT</button>
+
+    </form>
+</div>
+
+
+
+
+
+
+
+{% endblock content %}
+
