@@ -17,6 +17,6 @@ www.new101
 
 
 <b>Backend</b>: Python, Django, Beautiful Soup<br>
-<b>Frontend</b>: HTML5, CSS (Bootstrap5, Custom CSS, Custom JS), JQuery <br>
+<b>Frontend</b>: HTML5, CSS (Bootstrap5), JQuery <br>
 <b>Deployment</b>: Heroku <br>
-<b>Languages</b>: Python, Javascript, JQuery, HTML5, CSS <br>
+<b>Languages</b>: Python, JQuery, HTML5, CSS <br>
