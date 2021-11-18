@@ -16,7 +16,7 @@ www.new101
 ## Technologies used
 
 
-<b>Backend</b>: Django, Django Rest API, Beautiful Soup<br>
+<b>Backend</b>: Python, Django, Beautiful Soup<br>
 <b>Frontend</b>: HTML5, CSS (Bootstrap5, Custom CSS, Custom JS), JQuery <br>
 <b>Deployment</b>: Heroku <br>
 <b>Languages</b>: Python, Javascript, JQuery, HTML5, CSS <br>
