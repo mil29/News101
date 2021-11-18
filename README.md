@@ -11,7 +11,7 @@ Features:
 
 ## Demo
 
-www.new101
+https://mynews101.herokuapp.com
   
 ## Technologies used
 
