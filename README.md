@@ -9,9 +9,6 @@ Features:
 3.  Ability to change layout of articles page with randomized output of articles.
 4.  Use of Python slicing, zipping lists, Beautiful Soup web scraping.  
 
-## Demo
-
-https://mynews101.herokuapp.com
   
 ## Technologies used
 
