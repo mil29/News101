@@ -2,6 +2,8 @@
 
 News aggregator application built on Django Framework.
 
+Heroku link:  https://my101news.herokuapp.com
+
 Features:
 
 1.  User able to select from various news channels.
