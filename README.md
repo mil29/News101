@@ -1,6 +1,6 @@
 # News101
 
-News aggregator application built on Django Framework.
+Simple news aggregator application built on Django Framework.
 
 Heroku link:  https://my101news.herokuapp.com
 
