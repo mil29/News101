@@ -1,4 +1,4 @@
-# News101
+# News101 (Python/Django Application)
 
 Simple news aggregator application built on Django Framework.
 
